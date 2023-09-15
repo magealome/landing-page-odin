@@ -1,0 +1,11 @@
+<div class="left-header-body">
+        <h1>This website is awesome</h1>
+        <p>This website has some subtext that goes under the heading talking about how hard this fucking project is.</p>
+        <button class="blue-fill">Sign up</button>
+    </div>
+    <div class="right-header-body">
+    <img src="./images/dachshound" alt="dachshound in action">
+    </div>
+   </div> 
+ </body>
+ </html>
