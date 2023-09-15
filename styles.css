@@ -1,6 +1,6 @@
 body {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     font-family: 'Roboto', Courier, monospace;
     margin: 0;
     padding: 0;
@@ -10,16 +10,34 @@ body {
 .header
 {
     background-color: #0F233D;
-    padding: 100px;
+    display: flex;
+    flex: 1;
 }
+
+
+.header-menu{
+    min-height: 50px;
+    display: flex;
+    flex: 1;
+    margin-left: 100px;
+    margin-right: 100px;
+    flex-wrap: wrap;
+}
+
 .header-logo {
     width: 50px;
     height: 50px;
     display: flex;
-    margin-right: auto;
+    align-self: center;
 }
 
 .header-links {
     display: flex;
-    margin-left:  10px;
+    align-self: center;
+    margin-left: auto;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
 }
