@@ -4,6 +4,7 @@ body {
     font-family: Open Sans, Helvetica, sans-serif, monospace;
     margin: 0;
     padding: 0;
+    min-height: 100vh;
     
 }
 
@@ -12,9 +13,9 @@ body {
     background-color: #0F233D;
     display: flex;
     flex-direction: column;
-    height: 500px;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 400px;
+    padding-right: 400px;
+    min-height: 550px;
 }
 
 
@@ -22,9 +23,6 @@ body {
     display: flex;
     flex-wrap: wrap;
     color: white;
-    font-size: 18px;
-    justify-content: first baseline;   
-    flex-direction: row;
 }
 
 .header-logo {
@@ -36,7 +34,6 @@ body {
 .header-links {
     display: flex;
     margin-left: auto;
-
 }
 
 ul {
@@ -44,6 +41,14 @@ ul {
     display: flex;
     flex-wrap: wrap;
     gap: 18px;
+}
+
+.header-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex: 1;
+    flex-wrap: wrap-reverse;
 }
 
 h1 {
@@ -60,4 +65,10 @@ h1 {
 button {
     background-color: #007aca;
     padding: 3px, 8px;
+    flex: 1;
+}
+
+.right-header-content {
+    display: flex;
+    margin-left: auto;
 }
