@@ -72,3 +72,28 @@ button {
     display: flex;
     margin-left: auto;
 }
+
+.body-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.card {
+    width: 300px;
+}
+
+.card-image {
+    border: 5px solid #007aca;
+    border-radius: 25px;
+}
+
+.card-text {
+    text-align: center;
+}
