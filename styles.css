@@ -48,7 +48,6 @@ ul {
     flex-direction: row;
     align-items: center;
     flex: 1;
-    flex-wrap: wrap-reverse;
 }
 
 h1 {
@@ -66,27 +65,33 @@ button {
     background-color: #007aca;
     padding: 3px, 8px;
     flex: 1;
+    margin: 8px 0px;
 }
 
 .right-header-content {
     display: flex;
-    margin-left: auto;
+    margin-left: 60px;
+    justify-self: flex-end;
 }
 
-.body-content{
+.body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 20px;
+    background-color: white;
 }
 
 .card-container {
     display: flex;
-    flex-wrap: wrap;
     gap: 24px;
 }
 
 .card {
-    width: 300px;
+    max-width: 150px;
+    min-width: 100px;
+    display: flex;
+    flex-direction: column;
 }
 
 .card-image {
@@ -96,4 +101,19 @@ button {
 
 .card-text {
     text-align: center;
+}
+
+.quote-container{
+background-color: gainsboro;
+display: flex;
+align-content: center;
+justify-content: center;
+padding: 50 0px;
+}
+
+.quote {
+    font-weight: lighter;
+    font-style: italic;
+    font-size: 36px;
+    max-width: 672px;
 }
