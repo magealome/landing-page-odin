@@ -47,31 +47,32 @@ ul {
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
     flex: 1;
+}
+
+.left-header-content {
+    margin-right: 10px;
+    flex-basis: 550px;
+    color: white;
 }
 
 h1 {
     font-size: 48px;
     color: white;
-    margin: 0px;
+    margin: 0;
 }
 
-.white-paragraph {
-    color: white;
-    margin: 0px;
-}
 
 button {
-    background-color: #007aca;
-    padding: 3px, 8px;
-    flex: 1;
     margin: 8px 0px;
+    color: white;
+    border-radius: 5px;
+    background-color: #007aca;
 }
 
 .right-header-content {
     display: flex;
-    margin-left: 60px;
-    justify-self: flex-end;
 }
 
 .body{
@@ -106,14 +107,59 @@ button {
 .quote-container{
 background-color: gainsboro;
 display: flex;
-align-content: center;
-justify-content: center;
-padding: 50 0px;
+padding: 150px 0px;
+flex-direction: column;
+align-items: center;
+}
+
+.quote-card {
+    max-width: 672px;
+    margin: 0px;
 }
 
 .quote {
     font-weight: lighter;
     font-style: italic;
     font-size: 36px;
-    max-width: 672px;
+    margin: 0px;
+    
+}
+
+.quoted {
+    font-weight: bold;
+    padding: 0px;
+    flex-direction: row;
+    flex: 1;
+    font-size: 14px;
+    text-align: right;
+}
+
+.cta-container {
+    background-color: #007aca;
+    width: 672px;
+    padding: 40px 100px;
+    display: flex;
+    margin: 100px 0px;
+    border-radius: 10px;
+    justify-content: space-between;
+    color: white;
+}
+
+.button-transp {
+    background-color: transparent;
+}
+
+footer {
+    margin-top: auto;
+    background-color: #0F233D;
+    height: 100px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    color: white;
+    text-decoration: none;
 }
