@@ -21,7 +21,6 @@ body {
 
 .header-menu{
     display: flex;
-    flex-wrap: wrap;
     color: white;
 }
 
@@ -49,11 +48,12 @@ ul {
     align-items: center;
     justify-content: center;
     flex: 1;
+    flex-wrap: wrap;
 }
 
 .left-header-content {
     margin-right: 10px;
-    flex-basis: 550px;
+    max-width: 550px; 
     color: white;
 }
 
@@ -69,10 +69,12 @@ button {
     color: white;
     border-radius: 5px;
     background-color: #007aca;
+    max-height: 25px;
 }
 
 .right-header-content {
     display: flex;
+    margin: 10px;
 }
 
 .body{
@@ -81,11 +83,15 @@ button {
     align-items: center;
     padding: 20px;
     background-color: white;
+    justify-content: center;
 }
 
 .card-container {
     display: flex;
     gap: 24px;
+    flex: 1;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .card {
@@ -136,13 +142,14 @@ align-items: center;
 
 .cta-container {
     background-color: #007aca;
-    width: 672px;
+    max-width: 672px;
     padding: 40px 100px;
     display: flex;
     margin: 100px 0px;
     border-radius: 10px;
     justify-content: space-between;
     color: white;
+    align-items: center;
 }
 
 .button-transp {
