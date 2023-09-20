@@ -30,6 +30,7 @@ body {
     width: 50px;
     height: 50px;
     display: flex;
+    flex-flow: row nowrap;
 }
 
 .header-links {
@@ -71,8 +72,13 @@ button {
     color: white;
     border-radius: 5px;
     background-color: #007aca;
-    max-height: 25px;
-    border: none;
+    box-shadow: 0px 0px 1px 1px #fff;
+    top:50%;
+    border:none; 
+    border-radius:10px; 
+    padding:5px 10px;
+    min-height: 15px; 
+    min-width: 100px;
 }
 
 .right-header-content {
@@ -165,6 +171,7 @@ align-items: center;
 
 .button-transp {
     background-color: transparent;
+    margin-left: 10px;
 }
 
 footer {
