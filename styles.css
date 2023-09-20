@@ -13,8 +13,7 @@ body {
     background-color: #0F233D;
     display: flex;
     flex-direction: column;
-    padding-left: 400px;
-    padding-right: 400px;
+    justify-content: space-around;
     min-height: 550px;
 }
 
@@ -31,6 +30,7 @@ body {
     height: 50px;
     display: flex;
     flex-flow: row nowrap;
+    margin-left: 20px;
 }
 
 .header-links {
@@ -43,6 +43,7 @@ ul {
     display: flex;
     flex-wrap: wrap;
     gap: 18px;
+    margin-right: 20px;
 }
 
 .header-content {
